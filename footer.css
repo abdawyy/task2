@@ -1,0 +1,43 @@
+footer{
+    background-color: rgb(55,81,126);
+    color: white;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+footer .child1{
+    padding: 50px;
+}
+footer .child2{
+    padding: 50px;
+}
+footer a{
+    color: orange;
+    text-decoration: none;
+
+}
+@media (max-width:500px){
+    footer{
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    footer .child1{
+        
+    
+        padding: 20px;
+        margin-right:0;
+    }
+    footer .child2{
+        margin-right: 0;
+        padding: 20px;
+    }
+    footer .child2 P{
+        margin-right: 0px ;
+    }
+
+}
+    

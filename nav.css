@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 5px 2px rgb(0, 0, 0);
+    margin-bottom: 20px;
+
+    
+    
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+ 
+}
+.nav-logo{
+    display: flex;
+    float: left;
+    padding-top: 10px ;
+    padding-left: 200px;
+
+
+    
+}
+nav ul{
+    display: flex;   
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0px 10px;
+    text-align: center;
+    transition: all 1s ease;
+}
+-nav ul li:hover{
+    padding: 10px;
+    background-color: orange;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.nav-but{
+    border: 2px solid orange;
+    text-align: center;
+    padding:10px;
+    border-radius: 90px;
+    transition: all 1s;
+    
+    
+}
+.nav-but:hover{
+    background-color: orange;
+    
+
+}
+.nav-but:hover .nav-but a{
+    color: white;
+    
+}
+@media (max-width:500px){
+    nav{
+        width: 380px;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 5055;
+        position: sticky;
+    }
+    nav .nav-logo{
+        margin-left:  10px;
+        padding: 0;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    nav ul li{
+        display: flex;
+        width: 15%;
+        padding: 10px;
+        margin: 0;
+
+        
+        
+    }
+    nav .nav-but{
+       padding: 10px;
+       border-radius: 0px ;
+    }
+    
+}
